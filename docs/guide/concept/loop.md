@@ -38,6 +38,10 @@ function NameList() {
 在循环嵌套场景，我们可以自定义迭代变量名及索引变量名来指定上下文注入变量信息，避免产生冲突，如下所示：
 ![](https://img.alicdn.com/imgextra/i2/O1CN018ydzZM25tytcc8Gu5_!!6000000007585-2-tps-3582-2022.png_.webp)
 
+当需要为循环组件绑定动作时，我们同样可以通过**this.item**获取到当前行的循环数据：
+![image](https://user-images.githubusercontent.com/43404787/192524814-17085b8f-9c30-4a11-ab61-e06a4777ca79.png)
+
+
 :::tip
 配置了循环数据的组件会在大纲树中展示一个循环的小 Icon 标记组件设置了循环数据：
 
